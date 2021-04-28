@@ -1643,6 +1643,10 @@ body.dark-mode .plain-stat-container .stat-label {
 }
 
 body.dark-mode .chart-stat-container text {
+    fill: #fff;
+}
+
+body.dark-mode .highcharts-label.highcharts-tooltip.highcharts-color-undefined text{
     fill: #fff !important;
 }
 
@@ -1650,10 +1654,12 @@ body.dark-mode .highcharts-tooltip-box{
     fill: #101010 !important;
 }
 
+/**
 body.dark-mode text tspan {
     color: #fff;
     fill: #fff;
 }
+**/
 
 body.dark-mode .chosen-container-single .chosen-single, body.dark-mode .chosen-container .chosen-drop{
     border: 1px solid #1f1f1f !important;
